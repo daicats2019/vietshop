@@ -5,8 +5,8 @@ var accountSchema = mongoose.Schema({
     Username: String,
     Password: String,
     StaffID: String
-} , { collection: 'Account' } );
+} , { collection: 'Accounts' } );
 
-var Account = mongoose.model('Account', accountSchema);
+var Account = mongoose.model('Accounts', accountSchema);
 
 module.exports = Account;
